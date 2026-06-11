@@ -4,3 +4,47 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-color: #f3f1ea;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  border-bottom: #0a3a2a;
+}
+
+.navbar .logo img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.menu-links ul {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu-links ul li {
+  text-align: center;
+}
+
+.menu-links ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-button button {
+  width: 120px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  background-color: #0a3a2a;
+  color: #f3f1ea;
+  font-weight: 500;
+  font-size: 14px;
+}
