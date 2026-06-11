@@ -48,3 +48,14 @@ body {
   font-weight: 500;
   font-size: 14px;
 }
+
+.hero-section {
+  height: 100vh;
+  background-image: url("images/plantation.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
