@@ -56,6 +56,43 @@ body {
   background-position: center;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 0 10%;
+}
+
+.hero-info h1 {
+  font-size: 100px;
+  font-weight: 600;
+  color: #f3f1ea;
+  margin-bottom: 40px;
+}
+
+.hero-info p {
+  font-size: 50px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 80px;
+}
+
+.primary-btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #0a3a2a;
+  color: #f3f1ea;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.secondary-btn {
+  padding: 15px 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: transparent;
+  color: #f3f1ea;
+  cursor: pointer;
+  font-weight: 600;
 }
